@@ -266,6 +266,7 @@ backdrop-filter: blur(4px);
   overflow-y: scroll;
   display: flex;
   flex-direction: column-reverse;
+  background: #131213;
    
 }
 .tower{

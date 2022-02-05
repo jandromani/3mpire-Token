@@ -7,7 +7,7 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
-    background:#121133!important;
+    background:#000000!important;
     overflow-x: hidden;
 
 }
@@ -64,7 +64,7 @@ textarea:focus, input:focus{
     outline: none;
 }
 .sponsors{
-    background: linear-gradient(180deg, #121133    0%, #051427    100%);
+    background: linear-gradient(180deg, #000000    0%, #000408    100%);
     padding-bottom: 5%;
 }
 .sponsor{
@@ -87,7 +87,7 @@ textarea:focus, input:focus{
 .promise {
     color: white ;
     font-weight: 500;
-    background-image: radial-gradient(#2b4d81, #061931);
+    background-image: radial-gradient(#000000, #000000);
 
     border-radius: 10px;
     padding : 15px 15px;
