@@ -1,2 +1,0 @@
-# SpeakLoud3r
-
