@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empire</title>
+  <title>Speak Louder NFT Game</title>
   <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
   <!-- MDB -->
@@ -33,75 +33,43 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+  <script src="js/index.js"></script>
 </head>
 
 <body onscroll="scrollNav()">
 
 
+
   <nav id="navbar">
     <div class="logo-head">
-      <img src="./img/SideTextLogo.62b7e034.svg" />
+      <img src="./img/logomv.png" />
     </div>
 
     <div class="links">
       <div class="upper">
-        <div class="info" style="font-size: 15px  !important;">
-          <a href="#" id="home">Hogar</a>
-          <a href="./tokenomics.html" id="Tokenomics">Tokenomics</a>
-          <a href="https://empiretoken.world/TechRateAudit.pdf" target="_blank" id="Audit">Audit</a>
-          <a href="#" class="btn p-2" style="background : black ; border :  1px solid aqua" id="dex">Dex</a>
-          <a href="https://nft.empiretoken.world/" class="btn p-2" style="background : black ; border :  1px solid aqua"
-            id="nft" target="_blank">
-            Mercado NFT</a>
-          <a href="https://poocoin.app/tokens/0x293c3ee9abacb08bb8ced107987f00efd1539288" target="_blank"
-            id="price">Tabla de precios</a>
-            <ul class="navbar-nav">
-              <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Exchanges
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" target="_blank"  href="https://whitebit.com">White Bit</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" target="_blank"  href="https://www.xt.com">XT.com</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" target="_blank"  href="https://www.lbank.info">LBank</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          <a href="https://realempiretoken.medium.com/" target="_blank" id="blog">
-            Blogs </a>
-          <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x293C3Ee9ABaCb08BB8ceD107987F00EfD1539288"
-            target="_blank" class="text-white btn p-2" id="buy" target="_blank">Comprar en PancakeSwap</a>
-        </div>
-
-        <div class="translate">
-          <div class="translate-button">
-            <i class="fas fa-globe-americas"></i>
-            <p id="curLang">SP</p>
-            <div class="langs">
-              <a href="./index.html">English </a>
-              <a href="./Empire-tur.html">Turkish</a>
-              <a href="./Empire-zh.html">Chinese</a>
-              <a href="./Empire-sp.html">Spanish</a>
-
+        <div class="info">
+          <a href="#" id="home">Home</a>
+          <!-- <a href="./tokenomics.html" id="Tokenomics">Tokenomics</a> -->
+          <a href="https://opensea.io/collection/speakloudernftgame" class="btn p-2" style="background : black ; border :  1px solid aqua"
+            id="nft" target="_blank">NFT Marketplace</a>
+            <a href="https://speakloudernftgame.medium.com/" target="_blank" id="blog">Blogs & News</a> 
+          <a href="https://twitter.com/SpeakLouderNFT" target="_blank" id="blog">Twitter</a>
+          <a href="https://opensea.io/collection/speakloudernftgame"
+            target="_blank" class="text-white btn p-2" id="buy" target="_blank">Buy On OPENSEA</a>
+          </div>
+          <div class="translate">
+            <div class="translate-button">
+              <i class="fas fa-globe-americas"></i>
+              <p id="curLang">SP</p>
+              <div class="langs">
+                <a href="./index.html">English </a>
+                <a href="./Empire-tur.html">Turkish</a>
+                <a href="./Empire-zh.html">Chinese</a>
+                <a href="#">Spanish</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
     </div>
     <div class="mobile-nav">
@@ -116,49 +84,22 @@
             <a href="./index.html">English </a>
             <a href="./Empire-tur.html">Turkish</a>
             <a href="./Empire-zh.html">Chinese</a>
-            <a href="./Empire-sp.html">Spanish</a>
+            <a href="#">Spanish</a>
           </div>
         </div>
         <div class="sidenav" id="mySidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-          <a href="#" id="home">Hogar</a>
-          <a href="./tokenomics.html" id="token"> Tokenomics</a>
-          <a href="https://empiretoken.world/TechRateAudit.pdf" target="_blank" id="audit">Audit</a>
-          <a href="#" class="button-black" target="_blank" id="dex">Dex</a>
-          <a href="https://nft.empiretoken.world/" target="_blank" class="button-black" id="nft"> Mercado NFT</a>
-          <a href="https://poocoin.app/tokens/0x293c3ee9abacb08bb8ced107987f00efd1539288" target="_blank"
-            id="price">Tabla de precios</a>
+          <a href="#" id="home">Home</a>
+          <!-- <a href="./tokenomics.html" id="Token">Tokenomics</a> -->
+          <a href="https://opensea.io/collection/speakloudernftgame" target="_blank" id="nft">NFT Marketplace</a>
+          <a href="https://twitter.com/SpeakLouderNFT" target="_blank" id="blog">Twitter</a>
+          <a href="https://opensea.io/collection/speakloudernftgame"
+            target="_blank" class="btn" target="_blank" id="buy">Buy On Opensea</a>
             <ul class="navbar-nav">
               <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
-                  style="padding-left: 32px;"
-                >
-                  Exchanges
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" href="https://whitebit.com" target="_blank"  style="margin: 0; padding-left: 20px;">White Bit</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://www.xt.com" target="_blank"  style="margin: 0;padding-left: 20px;">XT.com</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://www.lbank.info" target="_blank"  style="margin: 0;padding-left: 20px;">LBank</a>
-                  </li>
-                </ul>
-              </li>
             </ul>
-          <a href="https://realempiretoken.medium.com/" target="_blank" id="blog"> Blogs y noticias</a>
-          <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x293C3Ee9ABaCb08BB8ceD107987F00EfD1539288"
-            target="_blank" class="btn" target="_blank" id="buy">Comprar en PancakeSwap</a>
+          <a href="https://speakloudernftgame.medium.com/" target="_blank" id="blog">Blogs & News</a>
 
         </div>
       </div>
@@ -166,25 +107,23 @@
   </nav>
   <div class="hero">
     <div class="hero-text">
-      <h1 id="title-head">Bienvenido a Empire</h1>
+      <h1 id="title-head">Bienvenido a Speak Louder NFT Game</h1>
       <p id="heroText1">
-        Estamos creando un mundo digital sin igual. Desarrollar dApps y crear soluciones es nuestra forma de expandir Empire y trepar a la cima.
+		Estamos creando un mundo digital donde puedes expresarte con absoluta libertad.
+		Creando soluciones a problemas humanos, a un metaverso libre de prejuicios.
       </p>
       <p id="heroText2">
-        Sosten la Empire Token transparente y ambiciosa</p>
+        Introducete en el ambicioso y transparente proyecto Speak Louder</p>
       <div class="hero-links">
-        <a href="https://bscscan.com/token/0x293C3Ee9ABaCb08BB8ceD107987F00EfD1539288" class="button-black"
-          id="heroLink1" target="_blank">BSC SCAN </a>
-        <a href="https://empiretoken.world/whitepaper.pdf" class="button-black" id="heroLink2"
+        <a href="https://opensea.io/collection/speakloudernftgame" class="button-black"
+          id="heroLink1" target="_blank">OPENSEA </a>
+        <a href="https://speakloudernft.gitbook.io/speak-louder-nft/" class="button-black" id="heroLink2"
           target="_blank">WHITEPAPER</a>
       </div>
-      <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
-      <div class="livecoinwatch-widget-6" lcw-coin="EMPIRE" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff"
-        lcw-color-bg="#000000" lcw-border-w="1"></div>
-      <p style="font-size: 1.5vh; color: aqua ; margin-bottom: 0; margin-top: 10px;">Dirección de Empire Token</p>
+      <p style="font-size: 1.5vh; color: aqua ; margin-bottom: 0; margin-top: 10px;">TOKEN ADDRESS</p>
       <div class="token-id">
-        <input class="address" type="text" id="myInput" value="0x293C3Ee9ABaCb08BB8ceD107987F00EfD1539288"
-          style="width: 75%; background : transparent; border : 0 solid white ; color : white;" readonly></input>
+        <input class="address" type="text" id="myInput" value="https://opensea.io/collection/speakloudernftgame"
+          style="width: 85%; background : transparent; border : 0 solid white ; color : white;" readonly></input>
         <input id="copyButton" type="submit" value="COPY" onclick="myFunction()" href="#popup1"
           class="copy btn mb-0"></input>
         <script>function myFunction() {
@@ -213,31 +152,39 @@
               <div class="slider-text" style="margin: 40px; margin-top : 50px;" id="slideText1">
 
                 <div class="btn-poster">
-                  <a href="http://nft.empiretoken.world" class="btn poster"
-                    style="margin-top: 50%; margin-left : 150px;" id="explore" target="_blank">Explorar</a>
+                  <a href="https://opensea.io/collection/speakloudernftgame" class="btn poster" style="margin-top: 50%; margin-left : 150px; " id="explore" 
+                  target="_blank">Explorar</a>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide head-slide slide-x" id="slideText2">
-              <a href="https://t.me/empiretokenworld" class="btn poster" style="margin-top: 50%; " id="explore"
-                target="_blank">Join
-                Us</a>
+            <div class="swiper-slide head-slide slide-x" id="slideText1">
+              <a href="https://t.me/SpeakLouderNFTGame" 
+              class="btn poster" style="margin-top: 300px; " id="explore"
+                target="_blank">Unete a nosotros</a>
             </div>
             <div class="swiper-slide head-slide slide-2" id="slideText2">
-              <a href="https://t.me/empiretokenworld" class="btn poster" style="margin-top: 50%; " id="explore"
-                target="_blank">Únete a nosotros</a>
+              <a href="https://t.me/SpeakLouderNFTGame" 
+              class="btn poster" style="margin-top: 300px; " id="explore"
+                target="_blank">Unete a nosotros</a>
             </div>
-            <div class="swiper-slide head-slide slide-3" id="slideText3"><a href="#roadmapHead" class="btn poster"
-                style="margin-top: 50%; " id="explore">Explore</a></div>
-            <div class="swiper-slide head-slide slide-4" id="slideText4"><a
-                href="https://coinmarketcap.com/currencies/empire-token/" class="btn poster" style="margin-top: 50%; "
-                id="explore" target="_blank">Explorar</a> </div>
-            <div class="swiper-slide head-slide slide-5" id="slideText4"><a
-                href="https://youtu.be/dMmmesIpCMc?t=326" class="btn poster" style="margin-top: 50%; "
-                id="explore" target="_blank">Ver ahora</a> </div>
-                <div class="swiper-slide head-slide slide-6" id="slideText4"><a
-                  href="https://finance.yahoo.com/news/empire-token-launches-empire-nft-042800426.html" class="btn poster" style="margin-top: 50%; "
-                  id="explore" target="_blank">Explorar</a> </div>
+            <div class="swiper-slide head-slide slide-3" id="slideText3"><a href="#roadmapHead" 
+              class="btn poster"
+                style="margin-top: 300px; " id="explore">Explorar</a>
+              </div>
+
+            <!-- <div class="swiper-slide head-slide slide-4" id="slideText4">
+              <a href="https://coinmarketcap.com/currencies/empire-token/" 
+              class="btn poster" style="margin-top: 300px; "
+                id="explore" target="_blank">Explore</a> 
+              </div>
+            <div class="swiper-slide head-slide slide-5" id="slideText5">
+              <a href="https://youtu.be/dMmmesIpCMc?t=326" 
+              class="btn poster" style="margin-top: 300px; " id="explore" target="_blank">Watch now</a> 
+            </div>
+            <div class="swiper-slide head-slide slide-6" id="slideText6">
+              <a href="https://finance.yahoo.com/news/empire-token-launches-empire-nft-042800426.html" class="btn poster"
+                style="margin-top: 300px; " id="explore" target="_blank">Explore</a> 
+              </div> -->
 
           </div>
           <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
@@ -258,6 +205,7 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
+          loop: true,
           mousewheel: true,
           keyboard: true,
         });
@@ -270,26 +218,23 @@
   <div class="container-fluid p-4 justify-content-center data-box">
     <div class="row  justify-content-center">
       <div class="col-8   col-xl-2 data " data-aos="fade-up" id="nameId">
-        Nombre: EMPIRE TOKEN
+        Nombre: Speak Louder NFT
       </div>
       <div class="col-8  col-xl-2 data" data-aos="fade-up" id="typeId">
-        Tipo: BEP-20
+        Tipo: BEP-721
       </div>
       <div class="col-8  col-xl-2 data" data-aos="fade-up" id="symbolId">
-        Símbolo: EMPIRE
+        Símbolo: Speak Louder
       </div>
       <div class="col-8    col-xl-2 data" data-aos="fade-up" id="supplyId">
-        Oferta: 1.000.000.000
-      </div>
-      <div class="col-8   col-xl-2  data" data-aos="fade-up" id="decimalId">
-        Decimal: 9
+        Supply : 320 cards, Edition Alpha
       </div>
     </div>
   </div>
   <script>
     AOS.init();
   </script>
-  <div class="sponsors">
+  <!--<div class="sponsors">
     <div class="container-fluid p-4 justify-content-center">
       <div class="row  justify-content-center">
         <div class="col-8 col-sm-5 col-md-3 col-xl-2 sponsor-list ">
@@ -324,13 +269,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <section class="swipe">
-    <h5 class="text-center" id="useCase">
-      Casos de Uso</h5>
-    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="useCaseText">Cómo se puede
-       </span><span class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="useCaseTextBlue">usar Empire
-        </span></h1>
+    <h5 class="text-center" id="useCase">Las cartas</h5>
+    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="useCaseText">SpeakLouder NFT Game</span>
+      <span class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="useCaseTextBlue">Edition Alpha</span></h1>
     <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
@@ -338,45 +281,102 @@
         <div class="swiper-slide">
           <img src="./img/card.png" />
           <div class="case-data">
-            <img src="./img/nft.svg"
-              style="width :  190px ; height : 140px ;margin: auto; position : relative; left : 20px; padding: 20px;">
-            <h1 class="case-title" id="caseTitle1">MERCADO NFT
-              DE EMPIRE</h1>
-            <p id="caseText1">Nuestra plataforma proporcionará acceso al mercado más innovador para
-              tokens no fungibles (NFT) que permitirán a los usuarios comprar, vender e intercambiar sus
-              activos digitales de forma segura, así como licenciar estos activos para uso comercial.
+            <img src="./img/logo-big.png"
+              style="width :  170px ; height : 125px ;margin: auto; position : relative; padding: 20px;">
+            <h1 class="case-title" id="caseTitle1">SpeakLouder NFT
+              MARKETPLACE</h1>
+            <p id="caseText1">Mantenga el ambicioso y transparente proyecto Speak Louder Ahora puede explorar los NFT de nuestra colección de OpenSea,
+               todas son únicas, es decir, solo hay una carta minable.
+               Ya puedes explorarlos todos en esta plataforma.
             </p>
-            <a href="http://nft.empiretoken.world" class="btn" style="width:80%;" id="explore"
-              target="_blank">Explorar</a>
+            <a href="https://opensea.io/collection/speakloudernftgame" class="btn" style="width:80%;" id="explore"
+              target="_blank">Explore</a>
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="./img/card.png" />
-          <div class="case-data"style="padding: 10px;">
-            <img src="./img/dex.svg" style="width : 170px; height:175px ;margin: auto;padding: 20px;">
-            <h1 class="case-title" id="caseTitle2">EMPIRE DEX</h1>
-            <p id="caseText2"style="padding: 5px;">Empire DEX es la forma más fácil de intercambiar bienes crypto, con las tasas más bajas de la industria, lo que hace que tus fondos crezcan de forma más fácil. No solo puedes comenzar a intercambiar de inmediato, sino que también te puedes beneficiar hospedando tus tokens en nuestra plataforma, lo que hace de Empire DEX una solución todo-en-uno.
-            </p>
-            <a href="#" class="btn" style="width:80%;" id="explore">Coming soon</a>
+          <img src="./img/cards/004 - Ethereum - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;" 
           </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902625600668958721" class="btn" style="width:40%; margin-top: 10px" id="explore"
+              target="_blank">Go to asset</a>
         </div>
         <div class="swiper-slide">
-          <div class="time">
-            <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-            <a href="https://logwork.com/countdown-qt6f" class="countdown-timer" data-style="columns"
-              data-timezone="Europe/London" data-textcolor="#ffffff" data-date="2021-09-30 18:24"
-              data-digitscolor="#00fff7" data-unitscolor="#ffffff">Coming Soon</a>
+          <img src="./img/cards/244 - Onion  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
           </div>
-
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902945558552641537" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
         </div>
         <div class="swiper-slide">
-          <div class="time">
-            <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-            <a href="https://logwork.com/countdown-qt6f" class="countdown-timer" data-style="columns"
-              data-timezone="Europe/London" data-textcolor="#ffffff" data-date="2021-09-30 18:24"
-              data-digitscolor="#00fff7" data-unitscolor="#ffffff">Coming Soon</a>
+          <img src="./img/cards/258 - Police Pink  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
           </div>
-
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902960951715430401" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/040 - Tons Cocaine  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902722357692203009" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/008 - KanyeWest - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902629998715469825" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/012 - Democrats - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902689372343369729" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/011 - Republicans - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902688272831741953" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/40 - Question - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653903006031692169217" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/015 - Kim Jong Un  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902692670878253057" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/083 - Charizard  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902769636692197377" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/028 - Bigender  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902709163552669697" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/089 - Batman - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902776233761964033" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/41 - Question - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653903007131203796993" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/59 - Question - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653903026922413096961" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
         </div>
 
       </div>
@@ -392,9 +392,9 @@
 
 
   <section class="our-promise">
-    <h5 class="text-center" id="promiseHead">Nuestra Promesa </h5>
-    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="promiseText">Solamente los más</span><span
-        class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="promiseTextBlue"> altos estándares</span>
+    <h5 class="text-center" id="promiseHead">Nuestra promesa </h5>
+    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="promiseText">Diversion con</span><span
+        class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="promiseTextBlue"> SpeakLouder NFT Game</span>
     </h1>
     <div class="tdlogo"><canvas class="webgl"></canvas>
     </div>
@@ -406,7 +406,7 @@
         </div>
         <div class="col-11 col-sm-7 col-md-5  promise ">
           <img src="./img/logo-small.png" class="promise-logo">
-          <span id="marketing">Marketing y más marketing</span>
+          <span id="marketing">Devuélvele la cordura al mundo</span>
         </div>
         <div class="col-11 col-sm-7 col-md-5  promise ">
           <img src="./img/logo-small.png" class="promise-logo">
@@ -418,11 +418,11 @@
         </div>
         <div class="col-11 col-sm-7 col-md-5  promise ">
           <img src="./img/logo-small.png" class="promise-logo">
-          <span id="xp">Equipo con amplia experiencia</span>
+          <span id="xp">Escalable</span>
         </div>
         <div class="col-11 col-sm-7 col-md-5  promise ">
           <img src="./img/logo-small.png" class="promise-logo">
-          <span id="con">Auditorías de contratos</span>
+          <span id="con">Diversion constante</span>
         </div>
       </div>
     </div>
@@ -440,137 +440,136 @@
 
 
   <section class="road">
-    <h5 class="text-center text-white" id="roadmapHead">Plan</h5>
-    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="roadMapText">A dónde</span><span
-        class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="roadMapTextBlue">  vamos</span></h1>
+    <h5 class="text-center text-white" id="roadmapHead">Roadmap</h5>
+    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="roadMapText">Donde coño</span><span
+        class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="roadMapTextBlue"> vamos?</span></h1>
     <div class="roadmap">
-      <img src="./img/tower.svg" class="tower">
       <div class="roadmap-wrapper">
 
         <div class="event-wrapper">
           <div class="roadmap-event">
             <div class="no">1 - </div>
-            <div class="eve"> Q2 2021 | Venta privada </div>
-          </div>
+            <div class="eve"> 2022 Q1 | Creacion de SpeakLouder NFT Game </div>
+          </div>          
           <div class="roadmap-event">
             <div class="no">2 - </div>
-            <div class="eve"> Q2 2021 | Sitio web 1.0 </div>
+            <div class="eve"> 2022 Q1 | Salida de las primeras 260 Answer-NFT </div>
           </div>
           <div class="roadmap-event">
             <div class="no">3 - </div>
-            <div class="eve"> Q2 2021 | Redes sociales </div>
+            <div class="eve"> 2022 Q1 | Salida de las primeras 60 Question-NFT </div>
           </div>
           <div class="roadmap-event">
             <div class="no">4 - </div>
-            <div class="eve"> Q2 2021 | Tour DXSale </div>
-          </div>
+            <div class="mark-cap">
+              <img src="./img/logo-small.png" class="promise-logo" style="width:28px;">
+              <span id="youAre">Estas Aqui</span>
+            </div>
+            <div class="eve"> 2022 Q1 | Lanzamiento pagina principal </div>
+          </div>         
           <div class="roadmap-event">
             <div class="no">5 - </div>
-            <div class="eve"> Q2 2021 | Auditoría de contrato inteligente </div>
+            <div class="eve"> 2022 Q2-Q3 | V2 AI para creacion de nuevas cartas </div>
           </div>
           <div class="roadmap-event">
             <div class="no">6 - </div>
-            <div class="eve"> Q2 2021 | Libro blanco 1.0 </div>
+            <div class="eve"> 2022 Q2-Q3 | Salida de 125 Answer-NFT </div>
           </div>
           <div class="roadmap-event">
             <div class="no">7 - </div>
-            <div class="eve"> Q2 2021 | Lanzamiento de Empire Token </div>
+            <div class="eve"> 2022 Q2-Q3 | Salida de 60 Question-NFT </div>
           </div>
           <div class="roadmap-event">
             <div class="no">8 - </div>
-            <div class="eve"> Q2 2021 | Listado de Empire Token en CoinGecko, Coinmarketcap y Blockfolio </div>
+            <div class="eve"> 2022 Q2-Q3 |  Colaboraciones con ONG para darnos visibilidad mutua </div>
           </div>
           <div class="roadmap-event">
             <div class="no">9 - </div>
-            <div class="eve"> Q2 2021 | Entrevistas en vivo con el fundador </div>
+            <div class="eve"> 2022 Q2-Q3 | Creacion de merchandising, camisetas, posters, pancartas.. </div>
           </div>
           <div class="roadmap-event">
             <div class="no">10 - </div>
-            <div class="eve"> Q2 2021 | Quemas manuales </div>
+            <div class="eve"> 2022 Q4 | Salida de 194 Country-NFT </div>
           </div>
           <div class="roadmap-event">
             <div class="no">11 - </div>
-            <div class="eve"> Q3 2021 | Primer anuncio de colaboración </div>
+            <div class="eve"> 2022 Q4 | Salida de 194 Answer-NFT con palabras en lenguajes nativos de cada país </div>
           </div>
           <div class="roadmap-event">
             <div class="no">12 - </div>
-            <div class="eve"> Q3 2021 | Desarrollo del Mercado NFT Empire </div>
+            <div class="eve"> 2022 Q4 | Lanzamiento de software para crear cartas de Speak Louder en cualquier tamaño </div>
           </div>
           <div class="roadmap-event">
             <div class="no">13 - </div>
-            <div class="eve"> Q3 2021 | Lanzamiento inicial del Mercado NFT Empire </div>
+            <div class="eve"> 2022 Q4 | Release 31 Poll-NFT creado en las encuestas #TheWordOfTheDay en Telegram </div>
           </div>
           <div class="roadmap-event">
             <div class="no">14 - </div>
-            <div class="eve"> Q3 2021 | Recompra y quemas manuales </div>
+            <div class="eve"> 2022 Q4 | Versión 30 Question-NFT </div>
           </div>
           <div class="roadmap-event">
             <div class="no">15 - </div>
-            <div class="mark-cap">
-              <img src="./img/logo-small.png" class="promise-logo" style="width:28px;">
-              <span id="youAre">You Are here</span>
-            </div>
-            <div class="eve"> Q4 2021 | Lanzamiento sitio web 2.0 </div>
+            <div class="eve"> 2023 Q1-Q2 | Disfruta que un juego acabe convirtiéndose en un movimiento social universal </div>
           </div>
           <div class="roadmap-event">
             <div class="no">16 - </div>
-            <div class="eve"> Q4 2021 | Lanzamiento de la red principal del Mercado NFT Empire </div>
+            <div class="eve"> 2023 Q1-Q2 | Subastas solidarias de NFT creadas para resolver problemas de la humanidad </div>
           </div>
           <div class="roadmap-event">
             <div class="no">17 - </div>
-            <div class="eve"> Q4 2021 | Auditoría del Mercado NFT </div>
+            <div class="eve"> 2023 Q1-Q2 | Plantar bosques con vegetación potencial en los países que lo permitan </div>
           </div>
           <div class="roadmap-event">
             <div class="no">18 - </div>
-            <div class="eve"> Q4 2021 | Colaboración con artistas y proyectos NFT </div>
+            <div class="eve"> 2023 Q1-Q2 | Reclame ser el líder del hashtag asociado con su tarjeta NFT </div>
           </div>
           <div class="roadmap-event">
             <div class="no">19 - </div>
-            <div class="eve"> Q4 2021 | Lanzamiento de la colección de Empire NFT </div>
+            <div class="eve"> 2023 Q3-Q4 | Mueve el juego al metaverso con el mazo de las primeras 320 cartas creadas en Unity 3D  </div>
           </div>
           <div class="roadmap-event">
             <div class="no">20 - </div>
-            <div class="eve"> Q4 2021 | Desarrollo de la fase 2 del Mercado NFT: licencias de NFT </div>
+            <div class="eve"> 2023 Q3-Q4 | Creación de pancartas, camisetas y merchandising en el metaverso </div>
           </div>
           <div class="roadmap-event">
             <div class="no">21 - </div>
-            <div class="eve"> Q4 2021 | Intercambio decentralizado (DEX) </div>
+            <div class="eve"> 2023 Q3-Q4 | Primera protesta contra el sistema en el metaverso </div>
           </div>
           <div class="roadmap-event">
             <div class="no">22 - </div>
-            <div class="eve"> Q4 2021 | Seguimiento de cartera de Empire </div>
+            <div class="eve"> 2023 Q3-Q4 | Primeros abanderados de diferentes movimientos en el metaverso con la acreditación de su NFT  </div>
           </div>
           <div class="roadmap-event">
             <div class="no">23- </div>
-            <div class="eve"> Q1 2022 | Sistema de pago Empire </div>
+            <div class="eve"> 2024 | Publicación del libro Speak Louder, para exponer al mundo a la nueva libertad. </div>
           </div>
           <div class="roadmap-event">
             <div class="no">24 - </div>
-            <div class="eve"> Q1 2022 | Auditoría del sistema de pago </div>
+            <div class="eve"> 2024 | Primera aparición televisiva de una protesta contra el sistema en el metaverso </div>
           </div>
           <div class="roadmap-event">
             <div class="no">25 - </div>
-            <div class="eve"> Q1 2022 | Colaboración con comercios y empresas </div>
+            <div class="eve"> 2025 | Primera aparición de influencers políticos del metaverso en el mundo real </div>
           </div>
           <div class="roadmap-event">
             <div class="no">26 - </div>
-            <div class="eve"> Q1 2022 | To be Updated </div>
+            <div class="eve"> 2025 | Edición colaborativa de entorno mixto </div>
           </div>
           <div class="roadmap-event">
             <div class="no">27 - </div>
-            <div class="eve"> Q1 2022 | -- to be updated -- </div>
+            <div class="eve"> 2026 | Evolución de Speak Louder hacia una mesa de diálogo universal  </div>
           </div>
           <div class="roadmap-event">
             <div class="no">28 - </div>
-            <div class="eve"> Q1 2022 | -- to be updated -- </div>
+            <div class="eve"> 2026 | Primer consejo ciudadano de Speak Louder con participación de todos los pensamientos </div>
           </div>
           <div class="roadmap-event">
             <div class="no">29 - </div>
-            <div class="eve"> Q1 2022 | -- to be updated -- </div>
+            <div class="eve"> 2027 | Creación de un fondo monetario metaverso para aliviar problemas en el mundo real </div>
           </div>
           <div class="roadmap-event">
             <div class="no">30 - </div>
-            <div class="eve"> Q1 2022 | -- to be updated -- </div>
+            <div class="eve"> 2028 | ¿Seguiremos vivos? </div>
           </div>
 
 
@@ -581,8 +580,8 @@
 
 
   <section class="mission-section" style="background-color: #051427  ;">
-    <h1 class="p-4 m-4 mt-0 fw-bold text-center text-white"><span id="thinkText">Por qué</span><span
-        style="color : #24DDDC; padding-left :  12px" id="thinkTextBlue">Empire Token</span></h1>
+    <h1 class="p-4 m-4 mt-0 fw-bold text-center text-white"><span id="thinkText">Que</span><span
+        style="color : #24DDDC; padding-left :  12px" id="thinkTextBlue">Pensamos</span></h1>
 
     <div class="missions p-4">
       <div class="mission p-4 d-sm-flex  " data-aos="fade-up">
@@ -591,7 +590,13 @@
         </div>
         <div class="mission-data m-2 m-sm-4 mt-2  col-sm-5 col-md-5 col-xl-4 ">
           <h4 class="mission-name " id="vision">Nuestra visión</h4>
-          <p class="mission-text" id="visionText"> La visión de Empire está grabada en el nombre (Empire -> Imperio): Ansiamos alcanzar la cima y estamos escalando construyendo aplicaciones y soluciones seguras e impulsadas por el mercado. Nuestras dApps incluyen un mercado NFT innovador y un DEX, seguido por decenas de integraciones actualmente en producción.
+          <p class="mission-text" id="visionText"> Speak Louder quiere ser reconocido como líder y
+             organización consolidada en materia ambiental, comprometida con la mejora de la calidad de
+             vida de la población y la gestión sostenible de los recursos naturales, en un mundo donde
+             las personas viven en igualdad y dignidad y en armonía con la naturaleza.
+             Para ello, pone a su disposición las mejores capacidades profesionales para garantizar altos niveles de
+             eficiencia en sus acciones al mismo tiempo que adquiere un fuerte compromiso con todos sus
+             partes interesadas para cumplir su misión
           </p>
         </div>
       </div>
@@ -601,7 +606,15 @@
         </div>
         <div class="mission-data m-2 m-sm-4 mt-2 col-sm-5 col-md-5 col-xl-4">
           <h4 class="mission-name" id="mission">Nuestra misión</h4>
-          <p class="mission-text" id="missionText">TOfrecer productos y proveer soluciones que sean beneficiosas no solo para todo el ecosistema blockchain y DeFi sino también para el mundo real. Comenzando con aplicaciones DeFi, nuestro primer proyecto es un mercado NFT único que permite a los usuarios generar ingresos a los editores, lo que permite a los dueños de los NFT generar ingreso a través de intercambiar y licenciar sus NFTs para uso comercial. </p>
+          <p class="mission-text" id="missionText">
+		     La misión de Speak Louder es contribuir a la conservación y
+             gestión sostenible de los recursos naturales y el medio ambiente desde
+             justicia y solidaridad, participando en la ejecución y administración
+             n de proyectos estratégicos de desarrollo ambiental a nivel local, nacional
+             y niveles internacionales.
+             Estas son las pautas generales que deben regir nuestro día a día
+             dentro del Speak Louder, es deber de cada uno de nosotros interiorizar
+             ellos y alinear nuestros esfuerzos hacia el logro de la visión. </p>
         </div>
       </div>
       <div class="mission p-4 d-sm-flex  " data-aos="fade-up">
@@ -611,13 +624,29 @@
         <div class="mission-data m-2 m-sm-4 mt-2 col-sm-5 col-md-5 col-xl-4">
           <h4 class="mission-name" id="value">Nuestros principios</h4>
           <p class="mission-text" id="valueText"> Responsabilidad <br>
-            Nos tomamos nuestro negocio realmente en serio. Somos totalmente responsables frente a nuestros inversores, nuestro equipo, nuestros usuarios y nuestros seguidores. Valoramos sus inversiones con nosotros -ya sea inversión monetaria, de tiempo o de confianza- y es nuestra responsabilidad hacer que sus inversiones valgan la pena.
+            En todo momento somos conscientes de la responsabilidad hacia el mundo en el que vivimos.
+            Somos conscientes de la repercusión del proyecto y de que vamos a provocar una repercusión filosófica
+            vuelco necesario para el nacimiento de un metaverso libre de prejuicios donde todos tengan cabida,
+            donde el color, la política o la forma de ver el mundo no sean impedimento para establecer
+            relaciones personales
             <br> <br> Honestidad<br>
-            Desde un primer momento hemos sido claros y transparentes y esto es intrínsico a nuestro ADN y a quiénes somos. Creemos que si se vulnera la honestidad todos salen perjudicados. Siempre seremos transparentes con nuestros inversionistas, usuarios, empleados y seguidores.
+           Siempre seremos claros y transparentes, esto es intrínseco a nuestro ADN y muestra quiénes somos.
+            Nos comprometemos a ayudar a todos los colectivos en su visibilidad, también nos comprometemos a dedicarnos
+            exclusivamente a nuestros propietarios de NFT, para garantizar que cada uno de ustedes pueda expresarse libremente
+            en el metaverso, con reglas hechas para nosotros y por nosotros.
             <br> <br>Crecimiento feroz<br>
-            Nuestro lema "Continúa Trepando" deja en claro que nuestra ansia de crecimiento es insaciable. Se necesita de esta mentalidad para construir un imperio. De hecho, nada que valga la pena se construyó sin este anhelo. Creemos que hay un tremendo valor a conquistar en el mundo y lo capturaremos y lo monetizaremos como ninguna otra token lo ha hecho. Creceremos de forma constante y feroz. Nuestro imperio se expandirá día a día.
+            Con nuestro lema “Keep Climbing”, queda claro que nuestro apetito por crecer es insaciable. Necesario
+            esta mentalidad para construir este nuevo mundo paralelo al que existe. De hecho, sin esto, nunca se ha logrado nada digno.
+            Creemos que hay un tremendo valor que conquistar en el mundo, cuando lo conquistemos, aprenderemos nuevas reglas que nos permitirán a todos ser más felices. Creceremos de manera constante y
+            ferozmente. Nuestra visión de un mundo libre se extenderá como un fuego renovador y liberador
             <br> <br> Flexibilidad <br>
-            No se puede crecer sin ser flexible y ágil. Entendemos que todo proyecto enfrenta desafíos, pero la supervivencia y el crecimiento le pertenece a los que logran rápidamente aceptar, adaptarse y volver a orientarse.
+            La interoperabilidad y escalabilidad del proyecto tocará las puertas y los corazones de todo el mundo.
+            Esperamos ser compatibles con el mundo VR del futuro. Todos hemos visto que el mundo de los smartphones
+            no nos hace felices, no nos da todo lo que queremos, es más, cada vez
+            nos confronta unos con otros.
+
+            No somos nuestro enemigo, en un futuro donde habrá cada vez más espacio para el pensamiento debido
+            al desarrollo tecnológico, tenemos que sentar las bases de una sociedad feliz.
           </p>
         </div>
       </div>
@@ -627,31 +656,31 @@
 
 
   <section class="profile_why_section">
-    <h1 class="p-4  m-4 mt-0 fw-bold text-center text-white" data-aos="fade-up"><span id="why">Por qué</span><span
-        style="color : #24DDDC; padding-left :  12px" id="whyBlue">Empire Token</span></h1>
+    <h1 class="p-4  m-4 mt-0 fw-bold text-center text-white" data-aos="fade-up"><span id="why">Why</span><span
+        style="color : #24DDDC; padding-left :  12px" id="whyBlue">Speak Louder</span></h1>
     <div class="container-fluid p-4 justify-content-center Why" data-aos="fade-up">
       <div class="row  justify-content-center">
         <div class="col-8 col-sm-5 col-md-3 col-xl-2 why-text " id="strUseCase">
-          Casos de uso sólidos
+          • Interoperabilidad con VR
         </div>
         <div class="col-8 col-sm-5 col-md-3 col-xl-2 why-text" id="strMkt">
-          Equipo profesional
+          • Diseñado para el futuro
         </div>
         <div class="col-8 col-sm-5 col-md-3 col-xl-2 why-text" id="atLp">
-          Fondo de fluidez (LP) automático
+          • Ayuda al mundo del metaverso
         </div>
         <div class="col-8  col-sm-5 col-md-3  col-xl-2 why-text" id="rfi">
-          Recompensas RFI estáticas
+          • Concienciacion humana
         </div>
         <div class="col-8  col-sm-5 col-md-3 col-xl-2  why-text" id="fv">
-          Visión futurística
+          • Visión futurística
         </div>
       </div>
     </div>
 
-    <div class="profiles" data-aos="fade-up">
-      <h1 class="p-4 m-2 mt-0 fw-bold text-white text-center"><span id="founder">Nuestro</span><span
-          style="color : #24DDDC; padding-left :  12px; padding-bottom : 50px;" id="founderBlue">Equipo</span>
+    <!-- <div class="profiles" data-aos="fade-up">
+      <h1 class="p-4 m-2 mt-0 fw-bold text-white text-center"><span id="founder">About</span><span
+          style="color : #24DDDC; padding-left :  12px; padding-bottom : 50px;" id="founderBlue">The Founder</span>
       </h1>
       <div class="profile p-4 d-sm-flex justify-content-center  ">
         <div class="col-sm-5 p-2 col-md-4 col-xl-3 profile-svg ">
@@ -666,17 +695,27 @@
         </div>
         <div class="profile-data m-2  col-sm-5 col-md-4 col-xl-4 " style="padding-top: 0px;">
           <h4 class="profile-name" id="name">Dulla</h4>
-          <h6 class="profile-role" id="des">Fundador y CEO</h6>
-          <p class="bio" id="nameText">Abdullah, o como le gusta que le digan, Dulla, es el fundador y CEO de Empire. Su experiencia laboral habla por sí sola. Sus más de 10 años de experiencia en marketing y 5 años de experiencia gestionando las comunicaciones digitales de una de las empresas líderes de telecomunicaciones en el mundo lo llevaron a explorar diferentes caminos e ideas sobre cómo nos relacionamos con los cambios digitales y cómo podemos aprovechar las oportunidades introducidas por la tecnología blockchain. Su objetivo personal es expandir los ideales de Empire y continuar creando soluciones para las necesidades económicas modernas, comenzando con BSC.</p>
+          <h6 class="profile-role" id="des">Founder & CEO</h6>
+          <p class="bio" id="nameText">Abdullah, or Dulla as he likes to be called, is the founder and
+            CEO of Empire. His work experience talks for itself. His more
+            than 10 years experience with marketing, and 5 years of
+            experience managing digital communications for one of the
+
+            leading telecommunications companies in the world led him to
+            explore different paths and ideas about how we relate with the
+            digital changes and how we can seize the opportunities
+            brought by the Blockchain technology. His personal goal is to
+            expand Empire&#39;s ideals and keep on creating solutions for the
+            modern economic needs, beginning on the BSC.</p>
           <div class="footer-icon">
-            <!--
+            
 <a href="" class="me-4 text-reset">
               <i class="fab fa-facebook"></i>
             </a>
             <a href="" class="me-4 text-reset">
               <i class="fab fa-twitter"></i>
             </a>
-         -->
+      
             <a href="http://t.me/qur3aneto" target="_blank" class="me-4 text-reset">
               <i class="fab fa-telegram"></i>
             </a>
@@ -693,32 +732,31 @@
 
   <!-- news and blog -->
 
-  <div class="news-blog" style="background-color: #051427  ;" id="blog-news-1">
-    <h1 class="p-4 m-2 mt-0 fw-bold text-white" id="blogHead">Blogs</h1>
+
+  <div class="news-blog" style="background-color: #000000  ;" id="blog-news-1">
+    <h1 class="p-4 m-2 mt-0 fw-bold text-white" id="blogHead">Nuestro blog</h1>
     <div class="owl-carousel owl-theme blog">
 
       <div class="item">
         <div class="card container" style="background: transparent;">
           <div class="row">
             <div class="bg-image hover-overlay ripple col-lg-6" data-mdb-ripple-color="light">
-              <img src="./blogs/blog-1.jpeg" class="blog-img" />
+              <img src="./blogs/SpeakLouderNFTCOD.gif" class="blog-img" />
               <a href="#!">
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </a>
             </div>
             <div class="card-body col-lg-6">
 
-              <h5 class="card-title" id="blog1">Development Update: What’s coming for Empire?
+              <h5 class="card-title" id="blog1">Que es Speak Louder NFT?
               </h5>
               <p class="card-text" id="blog1Text">
-                Wanna hear what’s next? Empire made a huge rise in the last 24 hours…and we are not even finished. In
-                fact, we’re just getting started!
-                Since the Empire NFT Marketplace is launched, we would like to announce new features that are coming.
-              </p>
+                El nacimiento de SpeakLouder se basa en la combinación de vernos sumergidos en un universo temporal que parece haberse detenido en un bucle infinito, y una guerra contra lo más profundo de todos los seres que se nos asemejan, generando una sociedad que carece de respeto hacia todo. .
+                La misión de SpeakLouder es en este caso construir un....
               <div class="d-flex justify-content-between">
-                <span href="#" class="" ">2021-10-11</span>
+                <span href="#" class="" ">2022-11-02</span>
                           <a href="
-                  https://realempiretoken.medium.com/development-update-whats-coming-for-empire-120d62646377" class=""
+                  https://speakloudernftgame.medium.com/what-is-speaklouder-nft-1d8d745c325a" class=""
                   target="_blank" style="color:aqua" id="readMore">read more</a>
               </div>
 
@@ -730,25 +768,23 @@
         <div class="card container" style="background: transparent;">
           <div class="row">
             <div class="bg-image hover-overlay ripple col-lg-6" data-mdb-ripple-color="light">
-              <img src="./sliders/1.1.jpg" class="blog-img" />
+              <img src="./blogs/SpeakLouderNFT3dCUADRADO.gif" class="blog-img" />
               <a href="#!">
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </a>
             </div>
             <div class="card-body col-lg-6">
 
-              <h5 class="card-title">Empire Token has launched Empire NFT Marketplace
+              <h5 class="card-title">Qué son los NFT. Por qué las compañías de videojuegos y streamers se suman a esta moda, y por qué causan rechazo
               </h5>
               <p class="card-text">
-                Built as the next game-changing NFT dApp, the Empire NFT Marketplace is just the beginning of endless
-                possibilities for Empire.
-                Empire Token has developed a marketplace where you can buy, sell, and trade NFTs. We’re predicting over
-                10 thousand unique digital assets to be on the site by the end of the year.
+                Repasamos que son los NFT, lo que implican, por qué las compañías de videojuegos los quieren adoptar y el rechazo que provocan entre los usuarios. 
+                ¿Son los NFT el futuro o se trata de una forma de sacar dinero a los jugadores?...
               </p>
               <div class="d-flex justify-content-between">
-                <span href="#" class="" ">2021-09-04</span>
+                <span href="#" class="" ">2022-11-02</span>
                           <a href="
-                  https://realempiretoken.medium.com/empire-token-has-launched-empire-nft-marketplace-d3d150df8743"target="_blank"
+                          https://speakloudernftgame.medium.com/what-are-nfts-why-video-game-companies-and-streamers-join-this-trend-and-why-they-cause-rejection-5ed7624bee1c"target="_blank"
                   class="" style="color:aqua">read more</a>
               </div>
             </div>
@@ -778,22 +814,22 @@
 
 
   <!-- Footer -->
-  <footer class="text-lg-start  text-muted ">
+  <footer class="text-lg-start  text-muted " style="background-color: #000000  ;">
 
     <!-- Section: Links  -->
     <!-- Section: Social media -->
     <section class="d-md-flex  justify-content-between  text-white" style="padding: 0px 20px;">
       <!-- Left -->
       <div class="me-6">
-        <img class="logo" src="./img/SideTextLogo.62b7e034.svg">
+        <img class="logo" src="./img/logomv.png">
       </div>
 
       <!-- Right -->
       <div class="p-3">
         <span class="ready" id="ready">Listo para comenzar?</span>
-        <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x293C3Ee9ABaCb08BB8ceD107987F00EfD1539288"
+        <a href="https://opensea.io/collection/speakloudernftgame"
           class="btn" id="buy" target="_blank">
-          Comprar en Pancakeswap
+          Comprar en Opensea
         </a>
       </div>
       <!-- Right -->
@@ -809,41 +845,7 @@
 
 
             <!-- Section: Form -->
-            <section class="">
-              <form action="">
-                <!--Grid row-->
-                <div class="row d-flex ">
-                  <!--Grid column-->
-                  <div class="col-auto" style="padding-bottom: 30px;">
-                    <h3 class="text-white" style="width:80%; font-weight: 400;" id="sub">
-                      Suscríbete a nuestro boletín
-                    </h3>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-8" style="padding: 0 ;padding-left:12px;">
-                    <!-- Email input -->
-                    <div class="form-outline form-white mb-4" style="border-bottom: 1px solid #24DDDC; width:100% ">
-                      <input type="email" id="form5Example2" class="form-control" />
-                      <label class="form-label" for="form5Example2">Email address</label>
-                    </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-4" style="padding:0">
-                    <!-- Submit button -->
-                    <button type="submit" class="btn subsrcibe-btn" style=" background-color:#24DDDC ;border-bottom-left-radius: 0; margin:0;
-              border-bottom-right-radius: 0; border-bottom: 1.5px solid #24DDDC;">
-                      <i class="fas fa-angle-right"></i>
-                    </button>
-                  </div>
-                  <!--Grid column-->
-                </div>
-                <!--Grid row-->
-              </form>
-            </section>
+            
             <!-- Section: Form -->
 
 
@@ -859,10 +861,7 @@
               PRODUCTOS
             </h6>
             <p>
-              <a href="http://nft.empiretoken.world" target="_blank" class="text-reset" id="nft">Mercado NFT</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset" target="_blank" id="dex">Dex</a>
+              <a href="https://opensea.io/collection/speakloudernftgame" target="_blank" class="text-reset" id="nft">NFT Marketplace</a>
             </p>
 
           </div>
@@ -875,16 +874,15 @@
               ENLACES ÚTILES
             </h6>
             <p>
-              <a href="https://empiretoken.world/whitepaper.pdf" class="text-reset" target="_blank"
-                id="whitepaper">whitepaper</a>
+              <a href="https://speakloudernft.gitbook.io/speak-louder-nft/" class="text-reset" target="_blank"
+                id="whitepaper">Whitepaper</a>
             </p>
             <p>
-              <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x293C3Ee9ABaCb08BB8ceD107987F00EfD1539288"
-                class="text-reset" id="PancakeSwap" target="_blank">Pancakeswap</a>
+              <a href="https://discord.gg/yFqEQZyP"
+                class="text-reset" id="PancakeSwap" target="_blank">Discord</a>
             </p>
             <p>
-              <a href="https://bscscan.com/token/0x293C3Ee9ABaCb08BB8ceD107987F00EfD1539288" class="text-reset"
-                id="PancakeSwap" target="_blank">BSC Scan</a>
+              <a href="https://t.me/SpeakLouderNFTGame" class="text-reset" id="PancakeSwap" target="_blank">Telegram</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -896,11 +894,12 @@
               
 CONTACTO
             </h6>
-            <p><i class="fab fa-telegram me-3" target="_blank"></i> http://t.me/empiretokenworld</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              admin@empiretoken.world
-            </p>
+            <p><i class="fab fa-telegram me-3" target="_blank"></i> <a href="https://t.me/SpeakLouderNFTGame" style="color: #7fffd4">https://t.me/SpeakLouderNFTGame</a></p>
+            <p><i class="fab fa-github-square me-3" target="_blank"></i> <a href="https://speakloudernft.gitbook.io/speak-louder-nft/" style="color: #7fffd4" >https://speakloudernft.gitbook.io/speak-louder-nft/</a></p>
+            <p><i class="fab fa-discord me-3" target="_blank"></i> <a href="https://discord.gg/yFqEQZyP" style="color: #7fffd4">https://discord.gg/yFqEQZyP</a></p>
+            <p><i class="fab fa-instagram me-3" target="_blank"></i><a href="https://www.instagram.com/speakloudernftgame/" style="color: #7fffd4">https://www.instagram.com/speakloudernftgame/</a></p>
+            <p><i class="fab fa-twitter-square me-3" target="_blank"></i> <a href="https://twitter.com/SpeakLouderNFT" style="color: #7fffd4">https://twitter.com/SpeakLouderNFT</a></p>
+
           </div>
           <!-- Grid column -->
         </div>
@@ -919,34 +918,12 @@ CONTACTO
 
       <!-- Left -->
 
-      <!-- Right -->
-      <div class="footer-icon">
-        <!-- 
-         <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      -->
-        <a href="https://twitter.com/RealEmpireToken" target="_blank" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://youtube.com/channel/UCYSHk8YsR1jxNR64ezx6q3Q" target="_blank" class="me-4 text-reset">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a href="https://instagram.com/empiretoken" target="_blank" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="http://t.me/empiretokenworld" target="_blank" class="me-4 text-reset">
-          <i class="fab fa-telegram"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
+
 
     <!-- Copyright -->
     <div class="text-center p-4">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="#">Empiretoken.world</a>
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="#">SpeakLouder NFT Game</a>
     </div>
     <!-- Copyright -->
   </footer>
