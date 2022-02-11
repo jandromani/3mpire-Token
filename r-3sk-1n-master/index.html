@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speak Louder NFT Game</title>
+  <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--stylsheets-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="./css/blog.css" rel="stylesheet" />
+  <link href="./css/index.css" rel="stylesheet" />
+  <link href="./css/swiper.css" rel="stylesheet" />
+  <link href="./css/three.css" rel="stylesheet" />
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body onscroll="scrollNav()">
+
+
+  <nav id="navbar">
+    <div class="logo-head">
+      <img src="./img/logomv.png" />
+    </div>
+
+    <div class="links">
+      <div class="upper">
+        <div class="info">
+          <a href="#" id="home">Home</a>
+          <!-- <a href="./tokenomics.html" id="Tokenomics">Tokenomics</a> -->
+          <a href="https://opensea.io/collection/speakloudernftgame" class="btn p-2" style="background : black ; border :  1px solid aqua"
+            id="nft" target="_blank">NFT Marketplace</a>
+            <a href="https://speakloudernftgame.medium.com/" target="_blank" id="blog">Blogs & News</a>           
+          <a href="https://twitter.com/SpeakLouderNFT" target="_blank" id="blog">Twitter</a>
+          <a href="https://opensea.io/collection/speakloudernftgame"
+            target="_blank" class="text-white btn p-2" id="buy" target="_blank">Buy On OPENSEA</a>
+        </div>
+        <div class="translate">
+          <div class="translate-button">
+            <i class="fas fa-globe-americas"></i>
+            <p id="curLang">ENG</p>
+            <div class="langs">
+              <a href="#">English </a>
+              <a href="./Empire-tur.html">Turkish</a>
+              <a href="./Empire-zh.html">Chinese</a>
+              <a href="./Empire-sp.html">Spanish</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="mobile-nav">
+      <i class="fas fa-bars" id="menuId" style="font-size: 1.5em; padding-top :  20px; cursor: pointer; color: white"
+        onclick="openNav()"></i>
+
+      <div class="translate">
+        <div class="translate-button mobile">
+          <i class="fas fa-globe-americas"></i>
+          <p style="margin-left: 10px;" id="curLang">ENG</p>
+          <div class="langs">
+            <a href="#">English </a>
+            <a href="./Empire-tur.html">Turkish</a>
+            <a href="./Empire-zh.html">Chinese</a>
+            <a href="./Empire-sp.html">Spanish</a>
+
+          </div>
+        </div>
+        <div class="sidenav" id="mySidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <a href="#" id="home">Home</a>
+          <!-- <a href="./tokenomics.html" id="token"> Tokenomics</a> -->
+          <a href="https://opensea.io/collection/speakloudernftgame" target="_blank" class="button-black" id="nft">NFT Marketplace</a>
+          <a href="https://twitter.com/SpeakLouderNFT" target="_blank" id="blog">Twitter</a>
+          <a href="https://opensea.io/collection/speakloudernftgame"
+            target="_blank" class="btn" target="_blank" id="buy">Buy On Opensea</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="hero-text">
+      <h1 id="title-head">Welcome to Speak Louder NFT Game</h1>
+      <p id="heroText1">
+        We are creating a digital world where you can express yourself with absolutely freedom. 
+        Creating solutions to human problems, to a metaverse free of prejudices.
+      </p>
+      <p id="heroText2">Hold the ambitious and transparent Speak Louder project</p>
+      <div class="hero-links">
+        <a href="https://opensea.io/collection/speakloudernftgame" class="button-black"
+          id="heroLink1" target="_blank">OPENSEA </a>
+        <a href="https://speakloudernft.gitbook.io/speak-louder-nft/" class="button-black" id="heroLink2"
+          target="_blank">WHITEPAPER</a>
+      </div>
+      <p style="font-size: 1.5vh; color: aqua ; margin-bottom: 0; margin-top: 10px;">TOKEN ADDRESS</p>
+      <div class="token-id">
+        <input class="address" type="text" id="myInput" value="https://opensea.io/collection/speakloudernftgame"
+          style="width: 85%; background : transparent; border : 0 solid white ; color : white;" readonly></input>
+        <input id="copyButton" type="submit" value="COPY" onclick="myFunction()" href="#popup1"
+          class="copy btn mb-0"></input>
+        <script>function myFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("myInput");
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+            document.getElementById("copyButton").value = "COPIED";
+
+
+          }</script>
+      </div>
+    </div>
+    <div class="empire-img">
+      <section class="head-slider">
+        <div class="swiper mySwiper-2" style="background-image: url('./img/hex.png'); background-size: cover;
+           background-repeat: no-repeat; background-position: center; z-index: 1;
+           padding-top: 50px !important;padding-bottom: 30px !important;">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide head-slide slide-1 ">
+              <div class="slider-text" style="margin: 40px; margin-top : 50px;" id="slideText1">
+                <div class="btn-poster">
+                  <a href="https://opensea.io/collection/speakloudernftgame" class="btn poster" style="margin-top: 50%; margin-left : 150px; " id="explore" 
+                  target="_blank">Explore</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide head-slide slide-x" id="slideText1">
+              <a href="https://t.me/SpeakLouderNFTGame" 
+              class="btn poster" style="margin-top: 50%; margin-left : 220px; " id="explore"
+                target="_blank">Join Us</a>
+            </div>
+            <div class="swiper-slide head-slide slide-2" id="slideText2">
+              <a href="https://t.me/SpeakLouderNFTGame" 
+              class="btn poster" style="margin-top: 50%; margin-left : 150px; " id="explore"
+                target="_blank">Join Us</a>
+            </div>
+            <div class="swiper-slide head-slide slide-3" id="slideText3"><a href="#roadmapHead" 
+              class="btn poster"
+                style="margin-top: 50%; margin-left : 150px; " id="explore">Explore</a>
+              </div>
+
+            <!-- <div class="swiper-slide head-slide slide-4" id="slideText4">
+              <a href="https://coinmarketcap.com/currencies/empire-token/" 
+              class="btn poster" style="margin-top: 300px; "
+                id="explore" target="_blank">Explore</a> 
+              </div>
+            <div class="swiper-slide head-slide slide-5" id="slideText5">
+              <a href="https://youtu.be/dMmmesIpCMc?t=326" 
+              class="btn poster" style="margin-top: 300px; " id="explore" target="_blank">Watch now</a> 
+            </div>
+            <div class="swiper-slide head-slide slide-6" id="slideText6">
+              <a href="https://finance.yahoo.com/news/empire-token-launches-empire-nft-042800426.html" class="btn poster"
+                style="margin-top: 300px; " id="explore" target="_blank">Explore</a> 
+              </div> -->
+
+          </div>
+          <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
+          <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </section>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper-2", {
+          cssMode: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          loop: true,
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script>
+
+
+    </div>
+
+  </div>
+  <div class="container-fluid p-4 justify-content-center data-box">
+    <div class="row  justify-content-center">
+      <div class="col-8   col-xl-2 data " data-aos="fade-up" id="nameId">
+        Name : Speak Louder NFT
+      </div>
+      <div class="col-8  col-xl-2 data" data-aos="fade-up" id="typeId">
+        Type : BEP-721
+      </div>
+      <div class="col-8  col-xl-2 data" data-aos="fade-up" id="symbolId">
+        Symbol : Speak Louder
+      </div>
+      <div class="col-8    col-xl-2 data" data-aos="fade-up" id="supplyId">
+        Supply : 320 cards, Edition Alpha
+      </div>
+    </div>
+  </div>
+  <script>
+    AOS.init();
+  </script>
+  <!--<div class="sponsors">
+    <div class="container-fluid p-4 justify-content-center">
+      <div class="row  justify-content-center">
+        <div class="col-8 col-sm-5 col-md-3 col-xl-2 sponsor-list ">
+          <img src="./img/sponsor.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8 col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/sponsor-2.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8 col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/sponsor-3.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8  col-sm-5 col-md-3  col-xl-2 sponsor-list">
+          <img src="./img/sponsor-4.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8  col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/sponsor-5.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8  col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/coin.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8  col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/sponsor-x.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8  col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/sponsor-y.png"  style="position: relative; top : 10px;"alt="" class="sponsor">
+        </div>
+        <div class="col-8  col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/sponsor-8.png" alt="" class="sponsor">
+        </div>
+        <div class="col-8  col-sm-5 col-md-3 col-xl-2 sponsor-list">
+          <img src="./img/sponsor-9.png" alt="" class="sponsor">
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <section class="swipe">
+    <h5 class="text-center" id="useCase">The cards</h5>
+    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="useCaseText">SpeakLouder NFT Game</span>
+      <span class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="useCaseTextBlue">Edition Alpha</span></h1>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <img src="./img/card.png" />
+          <div class="case-data">
+            <img src="./img/logo-big.png"
+              style="width :  170px ; height : 125px ;margin: auto; position : relative; padding: 20px;">
+            <h1 class="case-title" id="caseTitle1">SpeakLouder NFT
+              MARKETPLACE</h1>
+            <p id="caseText1">Now you can explore the NFTs of our collection from OpenSea, 
+              they are all unique, that is, there is only one mintable card. 
+              You can explore them all on this platform already.
+            </p>
+            <a href="https://opensea.io/collection/speakloudernftgame" class="btn" style="width:80%;" id="explore"
+              target="_blank">Explore</a>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <img src="./img/cards/004 - Ethereum - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;" 
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902625600668958721" class="btn" style="width:40%; margin-top: 10px" id="explore"
+              target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/244 - Onion  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902945558552641537" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/258 - Police Pink  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902960951715430401" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/040 - Tons Cocaine  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902722357692203009" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/008 - KanyeWest - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902629998715469825" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/012 - Democrats - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902689372343369729" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/011 - Republicans - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902688272831741953" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/40 - Question - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653903006031692169217" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/015 - Kim Jong Un  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902692670878253057" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/083 - Charizard  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902769636692197377" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/028 - Bigender  - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902709163552669697" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/089 - Batman - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653902776233761964033" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/41 - Question - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653903007131203796993" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/cards/59 - Question - SpeakLouder.png" style="width : 227px; height:340px ;margin: auto; margin-top: 100px;"
+          </div>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76441304843055412735234477639850159971271297655677367051653903026922413096961" class="btn" style="width:40%; margin-top: 10px" id="explore"
+          target="_blank">Go to asset</a>
+        </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
+      <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/card-carousel.js"></script>
+  </section>
+
+
+  <section class="our-promise">
+    <h5 class="text-center" id="promiseHead">our Promise </h5>
+    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="promiseText">Fun with</span><span
+        class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="promiseTextBlue"> SpeakLouder NFT Game</span>
+    </h1>
+    <div class="tdlogo"><canvas class="webgl"></canvas>
+    </div>
+    <div class="container-fluid p-4 justify-content-center tdlogo-text">
+      <div class="row  justify-content-center">
+        <div class="col-11 col-sm-7 col-md-5 promise ">
+          <img src="./img/logo-small.png" class="promise-logo">
+          <span id="transparency">Full Transparency</span>
+        </div>
+        <div class="col-11 col-sm-7 col-md-5  promise ">
+          <img src="./img/logo-small.png" class="promise-logo">
+          <span id="marketing">Bring sanity back to the world</span>
+        </div>
+        <div class="col-11 col-sm-7 col-md-5  promise ">
+          <img src="./img/logo-small.png" class="promise-logo">
+          <span id="innovate">Innovative Thinking</span>
+        </div>
+        <div class="col-11  col-sm-7 col-md-5   promise ">
+          <img src="./img/logo-small.png" class="promise-logo">
+          <span id="real">Real Life Application</span>
+        </div>
+        <div class="col-11 col-sm-7 col-md-5  promise ">
+          <img src="./img/logo-small.png" class="promise-logo">
+          <span id="xp">Scalable</span>
+        </div>
+        <div class="col-11 col-sm-7 col-md-5  promise ">
+          <img src="./img/logo-small.png" class="promise-logo">
+          <span id="con">Funny all the time</span>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"
+      integrity="sha512-yNJzAsg5JyP91u+sLHlUDULMBd3hmEiVkYeeN1cQBKaLZ7EyT6oH2u5THNIRM2Fu6VKcZJv+F/QAp1h/qzy9Ow=="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/threed.js"></script>
+  </section>
+
+
+  <section class="road">
+    <h5 class="text-center text-white" id="roadmapHead">Roadmap</h5>
+    <h1 class="p-4 m-4 pt-2 mt-0 text-center text-white" data-aos="fade-up"><span id="roadMapText">Where the</span><span
+        class="fw-bold" style="color : #24DDDC; padding-left :  12px" id="roadMapTextBlue"> Fuck we go?</span></h1>
+    <div class="roadmap">
+      <div class="roadmap-wrapper">
+
+        <div class="event-wrapper">
+          <div class="roadmap-event">
+            <div class="no">1 - </div>
+            <div class="eve"> 2022 Q1 | Creation of SpeakLouder NFT Game </div>
+          </div>          
+          <div class="roadmap-event">
+            <div class="no">2 - </div>
+            <div class="eve"> 2022 Q1 | Release firsts 260 Answer-NFT </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">3 - </div>
+            <div class="eve"> 2022 Q1 | Release firsts 60 Question-NFT </div>
+          </div>
+           <div class="roadmap-event">
+            <div class="no">4 - </div>
+            <div class="mark-cap">
+              <img src="./img/logo-small.png" class="promise-logo" style="width:28px;">
+              <span id="youAre">You Are here</span>
+            </div>
+            <div class="eve"> 2022 Q1 | Lunch the main page </div>
+          </div>         
+          <div class="roadmap-event">
+            <div class="no">5 - </div>
+            <div class="eve"> 2022 Q2-Q3 | V2 AI to creation of new cards </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">6 - </div>
+            <div class="eve"> 2022 Q2-Q3 | Release 125 Answer-NFT </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">7 - </div>
+            <div class="eve"> 2022 Q2-Q3 | Release 60 Question-NFT </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">8 - </div>
+            <div class="eve"> 2022 Q2-Q3 | Collaborations with NGOs to give us mutual visibility </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">9 - </div>
+            <div class="eve"> 2022 Q2-Q3 | Creation of merchandising, t-shirts, posters, banners.. </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">10 - </div>
+            <div class="eve"> 2022 Q4 | Release 194 Country-NFT </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">11 - </div>
+            <div class="eve"> 2022 Q4 | Release 194 Answer-NFT with words in the native languages of each place </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">12 - </div>
+            <div class="eve"> 2022 Q4 | Release software to create Speak Louder cards in any size </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">13 - </div>
+            <div class="eve"> 2022 Q4 | Release 31 Poll-NFT created in #TheWordOfTheDay polls in telegram </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">14 - </div>
+            <div class="eve"> 2022 Q4 | Release 30 Question-NFT </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">15 - </div>
+            <div class="eve"> 2023 Q1-Q2 | Enjoy the fact that a game ends up becoming a universal social movement </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">16 - </div>
+            <div class="eve"> 2023 Q1-Q2 | Solidarity NFT auctions created to solve humanity problems </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">17 - </div>
+            <div class="eve"> 2023 Q1-Q2 | Plant forests with potential vegetation in the countries that allow it </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">18 - </div>
+            <div class="eve"> 2023 Q1-Q2 | Claim to be the leader of the hashtag associated with your NFT card </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">19 - </div>
+            <div class="eve"> 2023 Q3-Q4 | Move the game to the metaverse with the deck of the first 320 cards created in Unity 3D </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">20 - </div>
+            <div class="eve"> 2023 Q3-Q4 | Creation of banners, t-shirts and merchandising in the metaverse </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">21 - </div>
+            <div class="eve"> 2023 Q3-Q4 | First protest against the system in the metaverse </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">22 - </div>
+            <div class="eve"> 2023 Q3-Q4 | First flag-bearers of different movements in the metaverse with the accreditation of your NFT  </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">23- </div>
+            <div class="eve"> 2024 | Publication of the book Speak Louder, to expose the world to the new freedom. </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">24 - </div>
+            <div class="eve"> 2024 | First television appearance of a protest against the system in the metaverse </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">25 - </div>
+            <div class="eve"> 2025 | First appearance of political influencers of the metaverse in the real world </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">26 - </div>
+            <div class="eve"> 2025 | Collaborative mixed environment edition </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">27 - </div>
+            <div class="eve"> 2026 | evolution of Speak Louder towards a universal dialogue table  </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">28 - </div>
+            <div class="eve"> 2026 | First citizen council of Speak Louder with participation of all thoughts </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">29 - </div>
+            <div class="eve"> 2027 | Creation of a metaverse monetary fund to alleviate problems in the real world </div>
+          </div>
+          <div class="roadmap-event">
+            <div class="no">30 - </div>
+            <div class="eve"> 2028 | Will we still be alive? </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="mission-section" style="background-color: #051427  ;">
+    <h1 class="p-4 m-4 mt-0 fw-bold text-center text-white"><span id="thinkText">What</span><span
+        style="color : #24DDDC; padding-left :  12px" id="thinkTextBlue">We Think</span></h1>
+
+    <div class="missions p-4">
+      <div class="mission p-4 d-sm-flex  " data-aos="fade-up">
+        <div class="col-sm-4 p-2 col-md-3 col-xl-2 mission-svg ">
+          <img src="./img/vision.png " class="mission-img">
+        </div>
+        <div class="mission-data m-2 m-sm-4 mt-2  col-sm-5 col-md-5 col-xl-4 ">
+          <h4 class="mission-name " id="vision">Our vision</h4>
+          <p class="mission-text" id="visionText"> Speak Louder wants to be recognized as a leading and 
+            consolidated organization in environmental matters, committed to improving the quality of 
+            life of the population and the sustainable management of natural resources, in a world where
+            people live in equality and dignity and in harmony with nature.
+            To do this, it makes available the best professional capacities to guarantee high levels of
+            efficiency in its actions while at the same time acquiring a strong commitment with all its
+            stakeholders to fulfill its mission.</p>
+        </div>
+      </div>
+      <div class="mission p-4 d-sm-flex  " data-aos="fade-up">
+        <div class="col-sm-4 p-2 col-md-3 col-xl-2 mission-svg ">
+          <img src="./img/mission.png " class="mission-img">
+        </div>
+        <div class="mission-data m-2 m-sm-4 mt-2 col-sm-5 col-md-5 col-xl-4">
+          <h4 class="mission-name" id="mission">Our Mission</h4>
+          <p class="mission-text" id="missionText">
+          The mission, of Speak Louder is to contribute to the conservation and 
+            sustainable management of natural resources and the environment from
+            justice and solidarity, participating in the execution and administratio
+            n of strategic environmental development projects at the local, national
+            and international levels.
+            These are the general guidelines that should govern our day-to-day actions
+            within the Speak Louder, it is the duty of each of us to internalize
+            them and align our efforts towards the achievement of the vision.
+       </p>
+        </div>
+      </div>
+      <div class="mission p-4 d-sm-flex  " data-aos="fade-up">
+        <div class="col-md-4 p-2 col-md-3 col-xl-2 mission-svg ">
+          <img src="./img/value.png " class="mission-img">
+        </div>
+        <div class="mission-data m-2 m-sm-4 mt-2 col-sm-5 col-md-5 col-xl-4">
+          <h4 class="mission-name" id="value">Our Values</h4>
+          <p class="mission-text" id="valueText"> Responsibility <br>
+            At all times we are aware of the responsibility towards the world in which we live. 
+            We are aware of the repercussion of the project and that we are going to cause a philosophical 
+            overturn necessary for the birth of a metaverse free of prejudices where everyone has a place, 
+            where color, politics, or the way of seeing the world are not impediment to establish 
+            personal relationships
+            <br> <br> Honesty<br>
+            We will always be clear and transparent, this is intrinsic to our DNA, and shows who we are. 
+            We promise to help all groups in their visibility, we also promise to dedicate ourselves 
+            exclusively to our NFT owners, to ensure that each one of you can express yourself freely 
+            in the metaverse, with rules made for us and by us.
+            <br> <br>Ferocious Growth<br>
+            With our motto “Keep Climbing”, it is clear that our appetite for growth is insatiable. Needed
+            this mentality to build this new world parallel to the one that exists. In fact, without this, nothing worthy has ever been achieved.
+            We believe that there is tremendous value to conquer in the world, when we conquer it, we will learn new rules that will allow us all to be happier. We will grow steadily and
+            fiercely. Our vision of a free world will spread like a renewing and liberating fire
+            <br> <br> Adaptability <br>
+            The interoperability and scalability of the project will touch the doors and hearts of the whole world. 
+            We hope to be compatible with the VR world of the future. We have all seen that the world of smartphones
+            does not make us happy, it does not give us everything we want, what is more, it increasingly 
+            confronts us with each other.
+
+            We are not our enemy, in a future where there will be more and more room for thought due 
+            to technological development, we have to lay the foundations for a happy society.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="profile_why_section">
+    <h1 class="p-4  m-4 mt-0 fw-bold text-center text-white" data-aos="fade-up"><span id="why">Why</span><span
+        style="color : #24DDDC; padding-left :  12px" id="whyBlue">Speak Louder</span></h1>
+    <div class="container-fluid p-4 justify-content-center Why" data-aos="fade-up">
+      <div class="row  justify-content-center">
+        <div class="col-8 col-sm-5 col-md-3 col-xl-2 why-text " id="strUseCase">
+          VR Interoperability
+        </div>
+        <div class="col-8 col-sm-5 col-md-3 col-xl-2 why-text" id="strMkt">
+          Designed to future
+        </div>
+        <div class="col-8 col-sm-5 col-md-3 col-xl-2 why-text" id="atLp">
+          Help the metaverse world
+        </div>
+        <div class="col-8  col-sm-5 col-md-3  col-xl-2 why-text" id="rfi">
+          Human awareness
+        </div>
+        <div class="col-8  col-sm-5 col-md-3 col-xl-2  why-text" id="fv">
+          Futuristic Vision
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="profiles" data-aos="fade-up">
+      <h1 class="p-4 m-2 mt-0 fw-bold text-white text-center"><span id="founder">About</span><span
+          style="color : #24DDDC; padding-left :  12px; padding-bottom : 50px;" id="founderBlue">The Founder</span>
+      </h1>
+      <div class="profile p-4 d-sm-flex justify-content-center  ">
+        <div class="col-sm-5 p-2 col-md-4 col-xl-3 profile-svg ">
+          <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image class="profile-pic" xlink:href="./img/dulla.png" x="-25" width="160" height="110" />
+              </pattern>
+            </defs>
+            <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)" />
+          </svg>
+        </div>
+        <div class="profile-data m-2  col-sm-5 col-md-4 col-xl-4 " style="padding-top: 0px;">
+          <h4 class="profile-name" id="name">Dulla</h4>
+          <h6 class="profile-role" id="des">Founder & CEO</h6>
+          <p class="bio" id="nameText">Abdullah, or Dulla as he likes to be called, is the founder and
+            CEO of Empire. His work experience talks for itself. His more
+            than 10 years experience with marketing, and 5 years of
+            experience managing digital communications for one of the
+
+            leading telecommunications companies in the world led him to
+            explore different paths and ideas about how we relate with the
+            digital changes and how we can seize the opportunities
+            brought by the Blockchain technology. His personal goal is to
+            expand Empire&#39;s ideals and keep on creating solutions for the
+            modern economic needs, beginning on the BSC.</p>
+          <div class="footer-icon">
+            
+<a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+      
+            <a href="http://t.me/qur3aneto" target="_blank" class="me-4 text-reset">
+              <i class="fab fa-telegram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abdullahghandour" target="_blank" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </section>
+
+  <!-- news and blog -->
+
+  <div class="news-blog" style="background-color: #000000  ;" id="blog-news-1">
+    <h1 class="p-4 m-2 mt-0 fw-bold text-white" id="blogHead">Our blog</h1>
+    <div class="owl-carousel owl-theme blog">
+
+      <div class="item">
+        <div class="card container" style="background: transparent;">
+          <div class="row">
+            <div class="bg-image hover-overlay ripple col-lg-6" data-mdb-ripple-color="light">
+              <img src="./blogs/SpeakLouderNFTCOD.gif" class="blog-img" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body col-lg-6">
+
+              <h5 class="card-title" id="blog1">What is SPEAKLOUDER nft?
+              </h5>
+              <p class="card-text" id="blog1Text">
+                The birth of SpeakLouder is based on the combination of seeing ourselves submerged in a 
+                temporary universe that seems to have stopped in an infinite loop, and a war 
+                against the deepest of all beings that are similar to us, generating a society that lacks respect towards everything...
+                
+              <div class="d-flex justify-content-between">
+                <span href="#" class="" ">2022-11-02</span>
+                          <a href="
+                  https://speakloudernftgame.medium.com/what-is-speaklouder-nft-1d8d745c325a" class=""
+                  target="_blank" style="color:aqua" id="readMore">read more</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card container" style="background: transparent;">
+          <div class="row">
+            <div class="bg-image hover-overlay ripple col-lg-6" data-mdb-ripple-color="light">
+              <img src="./blogs/SpeakLouderNFT3dCUADRADO.gif" class="blog-img" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body col-lg-6">
+
+              <h5 class="card-title">What are NFTs. Why video game companies and streamers join this trend, and why they cause rejection
+              </h5>
+              <p class="card-text">
+                We review what NFTs are, what they imply, why video game companies want to adopt them and the rejection they cause among users. 
+                Are NFTs the future or is it a way to get money out of players?..
+              </p>
+              <div class="d-flex justify-content-between">
+                <span href="#" class="" ">2022-11-02</span>
+                          <a href="
+                          https://speakloudernftgame.medium.com/what-are-nfts-why-video-game-companies-and-streamers-join-this-trend-and-why-they-cause-rejection-5ed7624bee1c"target="_blank"
+                  class="" style="color:aqua">read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!--<div class="news-blog" style="background-color: #051427  ;">
+    <h1 class="p-4 m-2 mt-0 fw-bold text-white">News</h1>
+    <div class="owl-carousel owl-theme blog">
+
+    </div>
+  </div>
+
+ -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/blog-carousel.js"></script>
+
+
+
+  <!-- Footer -->
+  <footer class="text-lg-start  text-muted " style="background-color: #000000  ;">
+
+    <!-- Section: Links  -->
+    <!-- Section: Social media -->
+    <section class="d-md-flex  justify-content-between  text-white" style="padding: 0px 20px;">
+      <!-- Left -->
+      <div class="me-6">
+        <img class="logo" src="./img/logomv.png">
+      </div>
+
+      <!-- Right -->
+      <div class="p-3">
+        <span class="ready" id="ready">Ready to get started?</span>
+        <a href="https://opensea.io/collection/speakloudernftgame"
+          class="btn" id="buy" target="_blank">
+          Buy On OpenSea
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+
+    <!-- Section: Links  -->
+    <section class="" style="width:100%;">
+      <div class="container-fluid  mt-10">
+        <!-- Grid row -->
+        <div class="row foot justify-content-center mt-3" style="width:100%;">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-4  mb-4">
+
+
+            <!-- Section: Form -->
+            
+            <!-- Section: Form -->
+
+
+
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2  mb-4 text-white">
+            <!-- Links -->
+            <h6 class="text-uppercase  mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="https://opensea.io/collection/speakloudernftgame" target="_blank" class="text-reset" id="nft">NFT Marketplace</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mb-4 text-white">
+            <!-- Links -->
+            <h6 class="text-uppercase  mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="https://speakloudernft.gitbook.io/speak-louder-nft/" class="text-reset" target="_blank"
+                id="whitepaper">Whitepaper</a>
+            </p>
+            <p>
+              <a href="https://discord.gg/yFqEQZyP"
+                class="text-reset" id="PancakeSwap" target="_blank">Discord</a>
+            </p>
+            <p>
+              <a href="https://t.me/SpeakLouderNFTGame" class="text-reset" id="PancakeSwap" target="_blank">Telegram</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 text-white">
+            <!-- Links -->
+            <h6 class="text-uppercase  mb-4">
+              Contact
+            </h6>
+            <p><i class="fab fa-telegram me-3" target="_blank"></i> <a href="https://t.me/SpeakLouderNFTGame" style="color: #7fffd4">https://t.me/SpeakLouderNFTGame</a></p>
+            <p><i class="fab fa-github-square me-3" target="_blank"></i> <a href="https://speakloudernft.gitbook.io/speak-louder-nft/" style="color: #7fffd4" >https://speakloudernft.gitbook.io/speak-louder-nft/</a></p>
+            <p><i class="fab fa-discord me-3" target="_blank"></i> <a href="https://discord.gg/yFqEQZyP" style="color: #7fffd4">https://discord.gg/yFqEQZyP</a></p>
+            <p><i class="fab fa-instagram me-3" target="_blank"></i><a href="https://www.instagram.com/speakloudernftgame/" style="color: #7fffd4">https://www.instagram.com/speakloudernftgame/</a></p>
+            <p><i class="fab fa-twitter-square me-3" target="_blank"></i> <a href="https://twitter.com/SpeakLouderNFT" style="color: #7fffd4">https://twitter.com/SpeakLouderNFT</a></p>
+
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+
+    <!-- Section: Links  -->
+    <!-- Section: Social media -->
+    <section class="d-sm-flex  justify-content-between p-4 text-white">
+      <!-- Left -->
+      <div class="me-6">
+        <span>terms & conditions </span>
+        <span>Privacy Policy</span>
+      </div>
+
+      <!-- Left -->
+
+
+
+    <!-- Copyright -->
+    <div class="text-center p-4">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="#">SpeakLouder NFT Game</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script>
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+      document.getElementById("menuId").style.opacity = 0;
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("menuId").style.opacity = 1;
+    }
+    function scrollNav() {
+      if (window.pageYOffset >= 100) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
